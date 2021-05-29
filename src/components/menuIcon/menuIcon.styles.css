@@ -1,0 +1,49 @@
+.container {
+    display: none;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #E4FDE1;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+  .mobile-hidden {
+    display: none;
+  }
+
+  .mobile-options {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+
+  .mobile-option {
+    /*width: 50%;*/
+    color: #E4FDE1;
+    background-color: #5B7553;
+    text-decoration: none;
+    height: auto;
+    font-size: 2rem;
+  }
+
+  .mobile-option:target, .mobile-option:hover {
+    background-color: #D3C0D2;
+    color: black;
+    font-size: 2.25rem;
+    z-index: 1;
+    padding: 1%;
+  
+  }
+
+  @media screen and (max-width: 1075px){
+    .container {
+      display: inline-block;
+      cursor: pointer;
+      background-color: #5B7553;
+      border: none;
+      padding:0%;
+    }
+  }

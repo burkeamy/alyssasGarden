@@ -1,0 +1,53 @@
+.top-intro {
+    background-color: #004E89;
+    height: 20%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    color: #E4FDE1;
+    margin: -1%;
+    padding: 3%;
+    z-index: 2;
+}
+
+.logoImg {
+    
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.logoImg:hover {
+    height: 110px
+}
+
+h1 {
+    font-family: 'Purple Purse', cursive;
+    letter-spacing: 2px;
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+}
+
+@media screen and (max-width: 1673px){
+    h1 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 1415px){
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 1157px){
+    h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1074px) {
+    .top-intro {
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+}
