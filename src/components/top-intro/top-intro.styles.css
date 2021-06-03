@@ -2,8 +2,7 @@
     background-color: #004E89;
     height: 20%;
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr 1fr;
-    color: #E4FDE1;
+    color: #fff;
     margin: -1%;
     padding: 3%;
     z-index: 2;
@@ -21,7 +20,7 @@
 }
 
 h1 {
-    font-family: 'Purple Purse', cursive;
+    font-family: 'Miltonian', cursive;
     letter-spacing: 2px;
     font-size: 60px;
     color: #fff;

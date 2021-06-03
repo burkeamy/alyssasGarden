@@ -7,16 +7,10 @@
 }
 
 .option {
-    color:#004e89;
-    text-decoration: none;
     justify-content: end;
     font-size: 2rem;
-}
-
-.option {
     text-decoration: none;
     color: #fff;
-    justify-content: end;
     font-size: 110%;
     background-color: #9e788f;
     padding-top: .5rem;
