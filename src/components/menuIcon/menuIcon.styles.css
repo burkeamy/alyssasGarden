@@ -21,7 +21,6 @@
   }
 
   .mobile-option {
-    /*width: 50%;*/
     color: #fff;
     background-color:  #004E89;
     text-decoration: none;
@@ -38,7 +37,7 @@
   
   }
 
-  @media screen and (max-width: 1075px){
+  @media screen and (max-width: 750px){
     .container {
       display: inline-block;
       cursor: pointer;

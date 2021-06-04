@@ -22,8 +22,13 @@
     background-color: #a9b3ce;
 }
 
+.option:active {
+    color: #004e89;
+    background-color: #a9b3ce;
+}
 
-@media screen and (max-width: 1074px) {
+
+@media screen and (max-width: 750px) {
     .options {
         display: none;
       }

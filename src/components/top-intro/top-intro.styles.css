@@ -1,11 +1,14 @@
 .top-intro {
+    background-image: linear-gradient(#004E89, #9e788f);
     background-color: #004E89;
-    height: 20%;
-    display: grid;
+    height: 10%;
     color: #fff;
     margin: -1%;
     padding: 3%;
     z-index: 2;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    text-align: center;
 }
 
 .logoImg {
@@ -20,33 +23,33 @@
 }
 
 h1 {
-    font-family: 'Miltonian', cursive;
+    font-family: 'Mountains of Christmas', cursive;
     letter-spacing: 2px;
-    font-size: 60px;
+    font-size: 80px;
     color: #fff;
     text-align: center;
 }
 
 @media screen and (max-width: 1673px){
     h1 {
-        font-size: 50px;
+        font-size: 70px;
     }
 }
 
 @media screen and (max-width: 1415px){
     h1 {
-        font-size: 40px;
+        font-size: 60px;
     }
 }
 
 @media screen and (max-width: 1157px){
     h1 {
-        font-size: 30px;
+        font-size: 40px;
     }
 }
 
 @media screen and (max-width: 1074px) {
     .top-intro {
-        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-columns: .5fr 2fr 1fr;
     }
 }
