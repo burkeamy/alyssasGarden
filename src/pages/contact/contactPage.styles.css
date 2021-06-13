@@ -1,0 +1,75 @@
+.contactFormContainer {
+    width: 80%;
+    border: #7cdedc solid 3px;
+    border-radius: 2%;
+    z-index: 2;
+    margin-top: 15%;
+    text-align: center;
+    margin:5% auto 5% auto;
+    padding: 5%;
+    fill-opacity: .4;
+}
+
+.contact-form { 
+    display: inline-block;
+    width: auto;
+}
+
+input[type=text]:focus {
+    border: 3px solid #9e788f;;
+  }
+
+input[type=email]:focus {
+    border: 3px solid #9e788f;;
+}
+
+textarea:focus {
+    border: 3px solid #9e788f;;
+}
+
+input[type=text], select, textarea, input[type=email]{
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #02182B;
+  border-radius: 4px;
+  resize: vertical;
+  margin: 1%;
+}
+  
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #004e89;
+  box-shadow: .5em #a9b3ce;
+  color: #fff;
+  width: 10%;
+  padding: .5%;
+  font-size: 2em;
+  margin-top: 1%;
+}
+
+input[type=submit]:hover {
+  background-color: #a9b3ce;
+  color: #02182B;
+}
+
+@media screen and (max-width: 1100px){
+  input[type=submit] {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 900px){
+  input[type=submit] {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 600px){
+  input[type=submit] {
+    width: 20%;
+  }
+}

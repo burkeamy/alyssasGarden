@@ -1,0 +1,16 @@
+footer {
+    background-color: #9e788f;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+.footer-menu {
+    padding-top: 2%;
+}
+
+.footer-option {
+    text-decoration: none;
+    color:white;
+}
