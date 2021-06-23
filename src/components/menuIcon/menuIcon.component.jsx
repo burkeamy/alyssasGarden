@@ -6,7 +6,6 @@ import './menuIcon.styles.css';
 const MenuIcon = () => {
 
     const [ menuHide, setMenuHide ] = useState(false);
-    
 
     const changeView = () => {
         setMenuHide(!menuHide)

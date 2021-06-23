@@ -30,6 +30,7 @@ h1 {
     text-align: center;
 }
 
+
 @media screen and (max-width: 1673px){
     h1 {
         font-size: 70px;

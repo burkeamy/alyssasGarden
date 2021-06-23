@@ -12,7 +12,7 @@ const TopIntro = () => {
             <div className='spacer'></div>
             <section className='heading-section'>
                 <Link className='icon-link' to='/'><Icon /></Link>
-                <h1>Alyssa's Garden, LLC</h1>
+                <h1>Alyssa's Garden</h1>
                 <div className='tag-line-area'>
                     <p className="tag-line">Don't sweat the small stuff, that's our job</p>
                     <p className="tag-line" >Detailed garden specalist</p>

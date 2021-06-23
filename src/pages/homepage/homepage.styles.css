@@ -1,0 +1,28 @@
+.homepage-container {
+    margin: 1%;
+    padding: 1%;
+    font-size: 1.2rem;
+    justify-content: center;
+}
+
+.contact-button-container {
+   display: grid;
+   grid-template-rows: 1fr;
+   justify-content: center;
+}
+
+.contact-button {
+    background-color: #7cdedc;
+    border: #004E89 2px solid;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1%;
+    text-decoration: none;
+}
+
+.vip-info {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #004E89;
+}
