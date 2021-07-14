@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 
 
+
 const HomePage = () => (
     <div className ='homepage'>
         <article className='homepage-container'>

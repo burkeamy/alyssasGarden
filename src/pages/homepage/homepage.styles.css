@@ -9,6 +9,7 @@
    display: grid;
    grid-template-rows: 1fr;
    justify-content: center;
+   text-decoration: none;
 }
 
 .contact-button {
@@ -19,6 +20,12 @@
     font-size: 2rem;
     padding: 1%;
     text-decoration: none;
+}
+
+.contact-button:hover {
+    font-size: 2.25rem;
+    background-color: #004E89;
+    color: white;
 }
 
 .vip-info {

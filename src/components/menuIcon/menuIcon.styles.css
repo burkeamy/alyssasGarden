@@ -21,11 +21,7 @@
   }
 
   .mobile-option {
-    color: #fff;
-    background-color:  #004E89;
-    text-decoration: none;
-    height: auto;
-    font-size: 2rem;
+   display: none;
   }
 
   .mobile-option:target, .mobile-option:hover {
@@ -44,5 +40,14 @@
       background-color: #fff;
       border: none;
       padding:0%;
+    }
+
+    .mobile-option {
+      display: grid;
+      color: #fff;
+      background-color:  #004E89;
+      text-decoration: none;
+      height: auto;
+      font-size: 2rem;
     }
   }
