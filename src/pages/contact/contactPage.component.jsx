@@ -25,6 +25,8 @@ const ContactPage = () => {
     
     return (
         <div>
+            <p className='important-contact-info'>Please email us at info@alyssasgardennc.com</p>
+            <p>Our page is still under construction. Thank You for being here today!</p>
             <div className='contactBackground'></div>
             <section className='contactFormContainer'>
                 <h2>Contact Us</h2>
