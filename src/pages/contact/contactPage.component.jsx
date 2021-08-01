@@ -24,6 +24,7 @@ const ContactPage = () => {
     }
     
     return (
+        
         <div>
             <div className='contactBackground'></div>
             <section className='contactFormContainer'>
