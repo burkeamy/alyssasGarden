@@ -1,5 +1,6 @@
 
 import './App.css';
+import React, { useEffect } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import HomePage from './pages/homepage/homepage.component';
 import AboutUs from './pages/about-us/aboutUs.component';
@@ -10,11 +11,14 @@ import Portfolio from './pages/portfolio/portfolio.component';
 import Footer from './components/footer/footer.component';
 import ReactGA from 'react-ga';
 
-const TRACKING_ID = "UA-202651038-1"; 
-ReactGA.initialize(TRACKING_ID);
+export const initGA = () => {       
+  ReactGA.initialize('UA-202651038-1'); // put your tracking id here
+} 
 
 
 function App() {
+  useEffect(() => { initGA(); }, []);
+
   return (
     <div className="App">
       <TopIntro />
