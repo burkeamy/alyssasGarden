@@ -2,10 +2,9 @@ import React from 'react';
 import './homepage.styles.css';
 import { Link } from 'react-router-dom';
 
+const HomePage = () => {
 
-
-
-const HomePage = () => (
+    return (
     <div className ='homepage'>
         <article className='homepage-container'>
         <Link className='contact-button-container' to='/contact-us'><button className='contact-button'>Contact Us</button></Link>
@@ -26,6 +25,6 @@ const HomePage = () => (
             </p>
         </article>
     </div>
-);
+)};
 
 export default HomePage;

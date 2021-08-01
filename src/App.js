@@ -11,13 +11,18 @@ import Portfolio from './pages/portfolio/portfolio.component';
 import Footer from './components/footer/footer.component';
 import ReactGA from 'react-ga';
 
+import { withRouter } from 'react-router-dom';
+
 export const initGA = () => {       
-  ReactGA.initialize('UA-202651038-1'); // put your tracking id here
+  ReactGA.initialize('UA-202651038-1'); 
 } 
 
 
 function App() {
-  useEffect(() => { initGA(); }, []);
+
+  useEffect (() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+})
 
   return (
     <div className="App">
@@ -34,4 +39,4 @@ function App() {
   );
 }
 
-export default App;
+ export default withRouter(App);
