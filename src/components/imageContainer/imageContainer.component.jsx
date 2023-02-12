@@ -4,7 +4,7 @@ import Mulch from '../../images/lotsOfMulch.png';
 import SmallPerennialGarden from '../../images/smallPerennialGarden.png';
 import SageAndBasil from '../../images/sageAndBasil.png';
 import ButterflyPot from '../../images/butterflyPot.png';
-import Windowbox from '../../images/windowbox.png';
+import Windowbox from '../../images/windowbox.jpg';
 
 const ImageContainer = () => {
 
