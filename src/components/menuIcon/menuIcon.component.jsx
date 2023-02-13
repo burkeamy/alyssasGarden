@@ -27,7 +27,9 @@ const MenuIcon = () => {
             <nav className={ menuHide }>
                 <Link className='mobile-option' to='/'onClick={changeView}>home</Link>
                 <Link className='mobile-option' to='/portfolio'onClick={changeView}> portfolio</Link>
+                <Link className='mobile-option' to='/services'onClick={changeView}> services</Link>
                 <Link className='mobile-option' to='/about-us'onClick={changeView}> about</Link>
+                <Link className='mobile-option' to='/blog'onClick={changeView}> blog</Link>
                 <Link className='mobile-option' to='/contact-us'onClick={changeView}> contact</Link>
             </nav>  
         </div>

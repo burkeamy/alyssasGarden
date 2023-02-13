@@ -15,7 +15,9 @@ const Services = () => (
                         <li>summer and winter annuals</li>
                         <li>container planting</li>
                         <li>Mulching</li>
-                        <li>leaf management</li>
+                        <li>leaf management or fall cleanup</li>
+                        <li>spring cleanup</li>
+                        <li>mannual weed control</li>
                     </ul>
                 <p> 
             </p>

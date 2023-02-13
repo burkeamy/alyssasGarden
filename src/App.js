@@ -12,6 +12,7 @@ import Services from './pages/services/services.component';
 import Blog from './pages/blog/blogPage.component';
 import Footer from './components/footer/footer.component';
 import ReactGA from 'react-ga';
+import ElectricEquipment from './pages/blog/ElectricEquipment.js';
 
 import { withRouter } from 'react-router-dom';
 
@@ -36,6 +37,8 @@ function App() {
         <Route exact path='/about-us' component={ AboutUs } />
         <Route exact path='/blog' component={ Blog } />
         <Route exact path='/contact-us' component={ ContactPage } />
+        <Route exact path='/electric-equipment' component={ ElectricEquipment } />
+        <Route exact path ='/services' component={ Services } />
       </Switch>
       <Footer />
     </div>

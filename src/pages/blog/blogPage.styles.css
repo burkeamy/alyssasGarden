@@ -1,0 +1,42 @@
+.side-space {
+    background-color: aquamarine;
+}
+
+.blog-container {
+    border-bottom: 1.5px solid darkgreen;
+    padding-bottom: 2rem;
+   }
+
+.blog-option {
+    color: blue;
+    text-decoration: wavy;
+    margin-left: 2rem;
+}
+
+.blogPostsContainer {
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.blogContainer >p {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.thumbnail {
+    max-width: 100px;
+    max-height: auto;
+}
+
+.bigger-image {
+    max-width: 250px;
+    max-height: auto;
+    text-align: center;
+}
+
+.blogPost-container {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
