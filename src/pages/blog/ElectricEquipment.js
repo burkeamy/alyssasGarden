@@ -1,5 +1,6 @@
 import React from 'react';
 import './blogPage.styles.css';
+import { Link } from 'react-router-dom';
 import LawnMower from '../../images/kobaltMower.jpg'
 
 const ElectricEquipment = () => {
@@ -74,6 +75,7 @@ const ElectricEquipment = () => {
                             </p>
                             </div>
         <div classname="side-space"></div>
+        <Link className='blog-option' to ='/blog'>Want to read more blog posts?</Link>
     </div>
   )
 }

@@ -2,13 +2,32 @@ import React from 'react';
 import './blogPage.styles.css';
 import { Link } from 'react-router-dom';
 import LawnMower from '../../images/kobaltMower.jpg';
+import Redbud from '../../images/redbudTreeWeb.jpg';
 
 
 
 const Blog = () => (
     <div className ='blog'>
+        <h2>Alyssa's Garden Blog</h2>
         <article className='blog-container '>
-            <h2>Alyssa's Garden Blog</h2>
+            <h3>Growing Green  </h3>
+            <h4>My Perspective on Environmentally Friendly Landscaping</h4>
+            <p>March 2023</p>
+            <div className='blogPost-container'>
+                <div>
+                    <img className='thumbnail'alt ='native redbud tree full of purple blooms'src= { Redbud }></img>
+                </div>
+                <div>
+                <p>
+                    Environmentally friendly landscaping can be interpreted differently by everyone. I just wanted to take a 
+                    moment and explain what it means to me. I have been working in the landscaping industry for over a decade 
+                    in addition to my decade of work in a park. These experiences give me a unique perspective on this. 
+                </p>
+                </div>
+            </div>
+            <Link className='blog-option' to ='/environmentally-friendly'>More on environmentally friendly landscaping</Link>
+        </article>
+        <article className='blog-container '>
             <h3>Revolutionizing Lawn Care</h3>
             <h4>The Benefits and Convenience of Electric Lawn Equipment plus tips on choosing your own </h4>
             <p>Feb 2023</p>

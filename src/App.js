@@ -13,6 +13,7 @@ import Blog from './pages/blog/blogPage.component';
 import Footer from './components/footer/footer.component';
 import ReactGA from 'react-ga';
 import ElectricEquipment from './pages/blog/ElectricEquipment.js';
+import EnvironmentallyFriendly from './pages/blog/EnvironmentallyFriendly.js';
 
 import { withRouter } from 'react-router-dom';
 
@@ -38,6 +39,7 @@ function App() {
         <Route exact path='/blog' component={ Blog } />
         <Route exact path='/contact-us' component={ ContactPage } />
         <Route exact path='/electric-equipment' component={ ElectricEquipment } />
+        <Route exact path='/environmentally-friendly' component={ EnvironmentallyFriendly } />
         <Route exact path ='/services' component={ Services } />
       </Switch>
       <Footer />
